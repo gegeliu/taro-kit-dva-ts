@@ -1,0 +1,12 @@
+// 超出点点点
+@mixin ddd {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+// 宽高
+@mixin wh($width, $height) {
+    width: $width;
+    height: $height;
+}

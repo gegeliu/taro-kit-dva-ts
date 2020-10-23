@@ -1,0 +1,13 @@
+{
+    "appid": "17767960",
+    "host": "baiduboxapp",
+    "setting": {
+        "urlCheck": true
+    },
+    "swan": {
+        "baiduboxapp": {
+            "swanJsVersion": "3.150.255-rc",
+            "extensionJsVersion": "1.10.4"
+        }
+    }
+}

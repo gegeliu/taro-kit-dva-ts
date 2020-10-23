@@ -1,0 +1,10 @@
+@import "./mixin";
+@media screen and (min-width: 500px) {
+    html,
+    body {
+        max-width: 1500px;
+        margin: 0 auto;
+        position: relative;
+    }
+}
+$color-deep: #f5735b !default;

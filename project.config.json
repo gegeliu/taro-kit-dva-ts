@@ -1,0 +1,13 @@
+{
+  "miniprogramRoot": "./dist",
+  "projectname": "taro-kit-dva-ts",
+  "description": "taro3.* + dva + ts + react + sass 脚手架",
+  "appid": "wxb0fdf03d9a05c076",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "postcss": false,
+    "minified": false
+  },
+  "compileType": "miniprogram"
+}
