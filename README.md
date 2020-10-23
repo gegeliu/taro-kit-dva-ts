@@ -1,18 +1,26 @@
-# Taro React TypeScript DVA MOCK 脚手架说明
+# Taro React TypeScript DVA Mock 脚手架说明
 
 > **声明：**
 > 
-> 本脚手架不提供任何形式的担保及保证。但作者会努力完善并提供适当的技术支持。
+> 本脚手架不提供任何形式的担保及保证
+> 
+> 本脚手架将持续更新优化并维持最新的依赖
+> 
+> [问题请移步](https://github.com/gegeliu/taro-kit-dva-ts/issues/1)
 > 
 > 来去自由，欢迎Star
 
 ## 适合人员
 
-一切喜欢及想快速实现前端开发的人员，可以从零开始，附录有相关内容连接，
+所有喜欢并愿意参与前端开发的人员，即便您没有接触过此类开发，也可以依据此文档内提供的相关连接，
 
-可边学边了解，我敢保证这几乎是最简洁全面的Taro+React+Ts+DVA脚手架。
+边学边了解，很快入手开发，相信我，这几乎是最简洁全面的Taro+React+TS+DVA脚手架。
 
 当前版本 3.0.14(与taro 版本保持一致)
+
+## 关键词
+ 
+ Taro React Redux dva dva-loading TypeScript Mock SPA ES6 iconfont UMI hook antd
 
 ## 特色
 
@@ -28,10 +36,11 @@
  ```
     npm install -g @tarojs/cli@3.0.14
     // 或
-    yarn global add @tarojs/cli
+    yarn global add @tarojs/cli@3.0.14
  ```
 2. 下载代码并安装依赖
  ```
+    # 下载
     git clone https://github.com/gegeliu/taro-kit-dva-ts
     # 安装依赖
     cd taro-kit-dva-ts
@@ -51,18 +60,16 @@
 ## 其它命令
 ```
     # 命令行快速生成模板页面
-    ## 函数模版生成
-       npm run tpl 'page-name'
-    ## 组件模版生成
-       npm run tpl 'page-name' -- com
+      ## 函数模版生成
+        npm run tpl 'page-name'
+      ## 组件模版生成
+        npm run tpl 'page-name' -- com
 
     # 从iconfont更新图标
         npm run icon 'iconfont下载链接后缀'
         如：
         npm run icon 'font_1737876_xmxwz3kink'
 ```
-
-持续优化及维持最新依赖更新...
 
 ## 本地安装检查
 
@@ -100,16 +107,16 @@ npm install
     │   ├── models             // redux models
     │   ├── pages              // 页面文件目录
     │   │   └── index          // 首页继承Component模式
+    │   │   │   ├── index.config.tsx  // 页面配置
+    │   │   │   ├── index.tsx         // 页面逻辑
+    │   │   │   ├── index.scss        // 页面样式
+    │   │   │   ├── model.ts          // 页面models
+    │   │   │   └── service.ts        // 页面api
+    |   |   └── pop                   // hook 函数页面
     │   │       ├── index.config.tsx  // 页面配置
     │   │       ├── index.tsx         // 页面逻辑
     │   │       ├── index.scss        // 页面样式
-    │   │       ├── model.ts          // 页面models
-    │   │       └── service.ts        // 页面api
-    |   |   └── pop            // hook 函数页面y
-    │   │       ├── index.config.tsx  // 页面配置
-    │   │       ├── index.tsx         // 页面逻辑
-    │   │       ├── index.scss        // 页面样式
-    │   ├── services           // 公用抽象服务端强求接口 
+    │   ├── services           // 公用抽象服务端请求接口 
     │   ├── styles             // 样式文件
     │   ├── utils              // 常用工具类
     │   ├── app.config.ts      // 入口配置文件
@@ -123,7 +130,7 @@ npm install
 
 ### Taro开发文档
 
-> https://nervjs.github.io/taro/docs/README.html
+> [Taro 文档](https://nervjs.github.io/taro/docs/README.html)
 
 > [Taro 更新日志](https://github.com/NervJS/taro/blob/2.x/CHANGELOG.md)
 
@@ -131,22 +138,26 @@ npm install
 
 > https://dvajs.com/
 
+### ES6五分钟掌握的最小体系
+
+[ES6五分钟掌握的最小体系](https://www.yuque.com/umijs/umi/dvalore)
+
 ### TypeScript 中文手册
 
 > https://typescript.bootcss.com/
 
 ### 小程序开发文档
 
-> https://mp.weixin.qq.com/debug/wxadoc/dev/
+> [微信小程序](https://mp.weixin.qq.com/debug/wxadoc/dev/)
 >
-> https://smartprogram.baidu.com/docs/develop/fuctionlist/list/
+> [百度小程序](https://smartprogram.baidu.com/docs/develop/fuctionlist/list/)
 
-### 百度小程序配置
-> https://smartprogram.baidu.com/docs/develop/devtools/editor_set/
+> [百度小程序配置](https://smartprogram.baidu.com/docs/develop/devtools/editor_set/)
 
 ## 项目代码
-[github](https://github.com/gegeliu/taro-kit-dva-ts)
+
+[github代码地址](https://github.com/gegeliu/taro-kit-dva-ts)
 
 ## License
 
-[MIT](LICENSE)
+[MIT LICENSE](https://github.com/gegeliu/taro-kit-dva-ts/blob/main/LICENSE)
