@@ -15,7 +15,7 @@
 所有喜欢并愿意参与前端开发的人员，即便您没有接触过此类开发，也可以依据此文档内提供的相关连接，
 边学边了解，很快入手开发，相信我，这几乎是最简洁全面的Taro+React+TS+DVA脚手架。
 
-当前版本 3.0.14(与taro 版本保持一致)
+当前版本 3.0.15(与taro 版本保持一致)
 
 ## 关键词
  
@@ -70,6 +70,8 @@
         npm run icon 'iconfont下载链接后缀'
         如：
         npm run icon 'font_1737876_xmxwz3kink'
+    # 若使用taro ui 运行命令
+     npm i —save taro-ui@next
 ```
 
 ## 本地安装检查
@@ -133,7 +135,7 @@ npm install
 
 > [Taro 文档](https://nervjs.github.io/taro/docs/README.html)
 
-> [Taro 更新日志](https://github.com/NervJS/taro/blob/2.x/CHANGELOG.md)
+> [Taro UI](https://taro-ui.jd.com/#/)
 
 ### dva开发文档地址
 
@@ -149,7 +151,7 @@ npm install
 
 ### 小程序开发文档
 
-> [微信小程序](https://mp.weixin.qq.com/debug/wxadoc/dev/)
+> [微信小程序](https://developers.weixin.qq.com/miniprogram/dev/framework/)
 >
 > [百度小程序](https://smartprogram.baidu.com/docs/develop/fuctionlist/list/)
 
