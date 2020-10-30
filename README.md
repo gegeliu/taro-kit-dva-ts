@@ -8,7 +8,8 @@
 > 
 > [问题请移步](https://github.com/gegeliu/taro-kit-dva-ts/issues/1)
 > 
-> 来去自由，欢迎Star
+> 来去自由，欢迎Star 
+> 
 
 ## 适合人员
 
@@ -34,10 +35,11 @@
 
 1. [安装Taro3.*全局安装](https://nervjs.github.io/taro/docs/GETTING-STARTED)
  ```
-    npm install -g @tarojs/cli@3.0.14
+    npm install -g @tarojs/cli@3.0.15
     // 或
-    yarn global add @tarojs/cli@3.0.14
-    注：若已全局安装过其它版本，也可以直接转[2],采用本地安装模式 
+    yarn global add @tarojs/cli@3.0.15
+    注：若已全局安装过其它版本，也可以直接转[2],采用本地安装模式,
+    略过此步骤，下载后直接在工程路径运行 npm i 安装即可
  ```
 2. 下载代码并安装依赖
  ```
