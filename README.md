@@ -16,7 +16,7 @@
 所有喜欢并愿意参与前端开发的人员，即便您没有接触过此类开发，也可以依据此文档内提供的相关连接，
 边学边了解，很快入手开发，相信我，这几乎是最简洁全面的Taro+React+TS+DVA脚手架。
 
-当前版本 3.0.15(与taro 版本保持一致)
+当前版本 3.0.17(与taro 版本保持一致)
 
 ## 关键词
  
@@ -28,16 +28,16 @@
 2. Taro3升级后支持React/Vue 等框架，具体参考[小程序跨框架的开发与实践](https://mp.weixin.qq.com/s?__biz=MzU3NDkzMTI3MA==&mid=2247483770&idx=1&sn=ba2cdea5256e1c4e7bb513aa4c837834)
 3. 本脚手架直接改造集成[DVA(仅core)](https://dvajs.com/guide/)，及[MOCK(开发时)](http://mockjs.com/)前端开发者仅需关注界面及逻辑本身
 4. 采用更加严格高效的[TypeScript语言](https://typescript.bootcss.com/)，支持模版生成，同时集成[iconfont图标库](https://www.iconfont.cn/)
-5. 支持发布时console log移除，h5模式下支持代理调试避免跨域问题
+5. 支持发布时terser压缩配置console log移除等，h5模式下支持代理调试避免跨域问题
 6. 其它诸多特色等待你探索并欢迎加入开发维护
 
 ## 安装运行
 
 1. [安装Taro3.*全局安装](https://nervjs.github.io/taro/docs/GETTING-STARTED)
  ```
-    npm install -g @tarojs/cli@3.0.15
+    npm install -g @tarojs/cli@3.0.17
     // 或
-    yarn global add @tarojs/cli@3.0.15
+    yarn global add @tarojs/cli@3.0.17
     注：若已全局安装过其它版本，也可以直接转[2],采用本地安装模式,
     略过此步骤，下载后直接在工程路径运行 npm i 安装即可
  ```
@@ -85,6 +85,10 @@
 cd taro-kit-dva-ts
 
 taro update project
+
+本地安装时依赖更新:
+
+.\node_modules\.bin\taro update project
 
 ## 如何更新所有依赖
 
