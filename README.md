@@ -16,7 +16,7 @@
 所有喜欢并愿意参与前端开发的人员，即便您没有接触过此类开发，也可依据此文档内提供的相关连接，
 边学边了解，实现快速搭建开发，相信我，这几乎是最简洁全面的Taro+React+TS+DVA脚手架。
 
-当前版本 3.0.23(与taro 版本保持一致)
+当前版本 3.1.4(与taro 版本保持一致)
 
 ## 关键词
  
@@ -35,9 +35,9 @@
 
 1. [安装Taro3.*全局安装](https://nervjs.github.io/taro/docs/GETTING-STARTED)
  ```
-    npm install -g @tarojs/cli@3.0.23
+    npm install -g @tarojs/cli@3.1.4
     // 或
-    yarn global add @tarojs/cli@3.0.23
+    yarn global add @tarojs/cli@3.1.4
     注：若已全局安装过其它版本，也可以直接转[2],采用本地安装模式,
     略过此步骤，下载后直接在工程路径运行 npm i 安装即可
     若安装错误可以先安装国内镜像站点后重试 
@@ -86,7 +86,7 @@
  .\node_modules\.bin\taro info
  
 ## 项目依赖升级
-
+```
 cd taro-kit-dva-ts
 
 taro update project
@@ -94,16 +94,17 @@ taro update project
 本地安装时依赖更新:
 
 .\node_modules\.bin\taro update project
-
+```
 ## 如何更新所有依赖
-
+```
 npm install -g npm-check-updates
 
-
 npm-check-updates -u
+(备注: 由于高版本 dva-core 及 dva-loading 存在兼容问题，所以check后重新修改为：
+"dva-core": "^1.6.0-0","dva-loading": "^3.0.21")
 
 npm install
-
+```
 ## 业务介绍
 
 目录结构
